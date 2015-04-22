@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Napomena: imena baza i tabela odgovaraju onim ciji .sql fajlovi dolaze uz ovaj program; promeniti po zelji-->
+
+<connection>
+	<database>
+		<address>localhost</address>			<!-- Adresa na kojoj se nalazi baza -->
+		<username>username</username>			<!-- username za konekciju -->
+		<password>password</password>			<!-- lozinka -->
+		<name>registar_Novi_Sad</name>			<!-- ime recnik baze -->
+		<table>imena_ulica</table>				<!-- ime tabele sa vrednostima recnika -->
+		<attribute>ime_ulice</attribute>		<!-- ime atributa sa vrednostima recnika -->
+	</database>
+	<database>
+		<address>localhost</address>
+		<username>username</username>
+		<password>password</password>
+		<name>salterusa_Mica</name>
+		<table>imena_ulica</table>
+		<attribute>ime_ulice</attribute>
+	</database>
+</connection>
